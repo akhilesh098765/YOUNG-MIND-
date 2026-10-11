@@ -1,0 +1,7 @@
+{
+  "name": "ResearchMind Studio",
+  "description": "Scholarly Research & Academic Paper Studio powered by Gemini AI. Generate publication-grade research papers with mathematical formulations, empirical benchmarks, and citations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

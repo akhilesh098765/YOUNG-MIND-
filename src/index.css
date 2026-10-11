@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #fdfdfc;
+    --ink: #1a1a1a;
+    --accent: #000000;
+    --border: #e8e8e6;
+    --ink-faint: rgba(0, 0, 0, 0.06);
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.mono {
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.68rem;
+}
+
+.serif-display {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.serif-italic {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-style: italic;
+}
+
+.tag-badge {
+  display: inline-block;
+  background: var(--ink-faint);
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.editorial-border {
+  border-color: #e8e8e6;
+}
